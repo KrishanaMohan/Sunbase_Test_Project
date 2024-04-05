@@ -6,6 +6,8 @@ Spring Boot
 Java
 JWT Authentication
 SQL (Database: sunbase)
+HTML
+CSS
 
 **ID AND PASSWORD FOR LOGIN**
 
@@ -16,6 +18,10 @@ SQL (Database: sunbase)
 
 Clone the Repository Clone this repository to your local machine using the following HTTPS link: (only the backend part and for the frontend part open it in VS code and run on live server along with backend application)
 https://github.com/THE-KAYASTHA/SunbaseProject
+
+Copy SunbaseFrontend file in VS code and run it live
+and open all the other files for backend
+
 
 **Open in IntelliJ**
 
