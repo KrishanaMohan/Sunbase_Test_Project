@@ -1,4 +1,4 @@
-package com.example.SunbaseProject.Confi;
+package com.example.SunbaseProject.Configure;
 
 
 import com.example.SunbaseProject.Security.JWTAuthenticationFilter;

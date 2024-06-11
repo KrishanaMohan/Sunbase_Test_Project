@@ -10,19 +10,13 @@
     <section id="login">
       <form id="login-form">
         <h1>Login</h1>
-        <input
-          type="text"
-          id="username"
-          placeholder="Enter username"
-          required
-        />
-        <input
-          type="password"
-          id="password"
-          placeholder="Enter password"
-          required
-        />
-        <button type="submit">Submit</button>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username" required/>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" required/>
+
+        <button type="submit">Login</button>
       </form>
     </section>
 
@@ -36,7 +30,6 @@
           <option value="City">City</option>
           <option value="Email">Email</option>
           <option value="Phone">Phone</option>
-
         </select>
         
         <label for="searchField">Search By</label>

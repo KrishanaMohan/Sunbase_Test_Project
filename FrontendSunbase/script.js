@@ -140,15 +140,15 @@ let formData = {};
 addCustomerForm.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("submitted");
-  const firstName = document.getElementById("firstName").value;
-  const lastName = document.getElementById("lastName").value;
-  const street = document.getElementById("street").value;
-  const address = document.getElementById("address").value;
-  const city = document.getElementById("city").value;
-  const state = document.getElementById("State").value;
-  const email = document.getElementById("email").value;
+    const state = document.getElementById("State").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const firstName = document.getElementById("firstName").value;
+    const lastName = document.getElementById("lastName").value;
+    const street = document.getElementById("street").value;
+    const address = document.getElementById("address").value;
+    const city = document.getElementById("city").value;
 
-  const phone = document.getElementById("phone").value;
   console.log(firstName, lastName, address, city, state, email, phone);
   formData = {
     firstName: firstName,

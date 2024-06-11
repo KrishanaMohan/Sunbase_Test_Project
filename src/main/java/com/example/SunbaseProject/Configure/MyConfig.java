@@ -1,4 +1,4 @@
-package com.example.SunbaseProject.Confi;
+package com.example.SunbaseProject.Configure;
 
 
 import org.springframework.context.annotation.Bean;
@@ -17,8 +17,8 @@ public class MyConfig {
     @Bean
     public UserDetailsService userDetailsService() {
         UserDetails userDetails = User.builder().
-                username("Kamal")
-                .password(passwordEncoder().encode("Kamal@123")).roles("ADMIN").
+                username("KrishanaMohan")
+                .password(passwordEncoder().encode("Mohan227209@")).roles("ADMIN").
                 build();
         return new InMemoryUserDetailsManager(userDetails);
     }
